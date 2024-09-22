@@ -181,7 +181,7 @@ const figmaimage = [
     {"image": "/assest/fig.png"},
     {"image": "/assest/xd.png"},
     {"image": "/assest/tig.png"},
-    {"image": "/assest/Ai.png"},
+    {"image": "/assest/ai.png"},
     {"image": "/assest/ps.png"},
 ]
 export {
