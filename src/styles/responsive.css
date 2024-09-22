@@ -1,0 +1,435 @@
+@media screen and (max-width: 599px) {
+    .h1-home {
+        font-size: 30px !important;
+        line-height: 45px;
+    }
+.btn-contained {
+    height: 28px;
+}
+        
+    .button-whatido-last{
+        position: relative;
+        top: 2px;
+    }
+
+    .alan-about-image{
+        display: flex;
+        justify-content: center;
+    }
+ 
+    .about-h2 {
+        font-size: 16px;
+    }
+
+    .about-body2 {
+        font-size: 12px;
+    }
+
+    .about-h3 {
+        font-size: 12px;
+    }
+
+    .image-about-1 {
+        width: 245px;
+        height: 270px;
+    }
+
+    .box-about-img-1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .body1-home-content {
+        font-size: 14px;
+    }
+
+    .mob-line-home {
+        margin-bottom: 20px;
+    }
+
+    .p-experience {
+        font-size: 10px !important;
+    }
+
+    .h4-typohome-textVarient {
+        font-size: 20px !important;
+    }
+
+    .ux-ui-cont {
+        display: none;
+    }
+
+
+    .paper-color-home {
+        width: 120px;
+        height: 70px;
+    }
+
+    .alan-home-box {
+        display: flex;
+        justify-content: center;
+    }
+
+    .button-box-about{
+        display: flex;
+       gap: 4px;
+    }
+
+    .mobile-icon-skill{
+        width: 32px;
+        height: 32px;
+    }
+
+  
+
+    .custom-smallbox-cardnew{
+        background-color: #FFFFFF;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+        position: absolute;
+        bottom: -26px;
+        border-radius: 4px;
+    }
+
+    .card-experience-boxshadow{
+        width: 260px;
+       }
+
+    .btn-table{
+      font-size: 10px;
+    }
+    .btn-width{
+        padding: 1.6px;
+    }
+    .footer-h3{
+        font-size: 17px;
+    }
+    .p-footer{
+        font-size: 14px;
+    }
+    .h2-footer{
+        font-size: 16px;
+    }
+
+    .footer-icon-1{
+        width: 18px;
+        height: 18px;
+    }
+    .footer-h6{
+        font-size: 12px;
+    }
+    
+    .image-fb-footer{
+        width: 6px;
+        height: 13px;
+    }
+    
+    .image-ball-footer{
+        width: 12px;
+        height: 12px;
+    }
+
+     
+    .image-be-footer{
+        width: 13px;
+        height: 7.5px;
+    }
+
+    .image-in-footer{
+        width: 12px;
+        height: 12px;
+    }
+  
+    .image-insta-footer{
+        width: 12px;
+        height: 12px;
+    }
+
+    .footer-arrow-final{
+        width: 8px;
+        height: 10px;
+    }
+
+    .footer-h6{
+       font-size: 9px;
+    }
+
+    .padding-card-box{
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 15px;
+        padding-right: 20px;
+         width: 280px; 
+    }
+  
+    .subtitle-experience{
+        font-size: 13px;
+        color: #6B7280;
+    }
+
+    .my-projects {
+        background-color: #FFFFFF;
+        padding-top: 30px;
+        padding-bottom: 2px; 
+    }
+
+}
+
+@media (min-width: 600px) and (max-width: 899px) {
+    .h1-home {
+        font-size: 1.875rem !important;
+    }
+
+    .alan-about-image{
+        display: flex;
+        justify-content: center;
+    }
+    .custom-smallbox-cardnew {
+        position: absolute;
+        left: 40%;
+        bottom: -20px;
+    }
+    .ux-ui-cont {
+        display: none;
+    }
+
+    .image-line-home {
+        width: 219px;
+        height: 19px;
+    }
+
+    .p-experience {
+        font-size: 12px !important;
+    }
+
+    .h4-typohome-textVarient {
+        font-size: 22px !important;
+    }
+
+    .paper-color-home {
+        width: 140px;
+        height: 80px;
+    }
+
+    .about-box-1 {
+         height: 900px; 
+    }
+
+    .padding-custom-card {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .image-about-1 {
+        width: 350px;
+        height: 376px;
+    }
+
+    .home-head {
+        margin-top: 5px;
+    }
+
+
+    .card-experience-boxshadow {
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-radius: 10px;
+        /* padding: 15px; */
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 30px;
+        height: 100%;
+    }
+
+    .btn-table {
+        padding: 0.5px;
+        font-size: 14px;
+    }
+
+    .footer-h6 {
+        font-size: 18px;
+    }
+
+    .footer-h3 {
+        font-size: 22px;
+    }
+
+    .p-footer {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .h2-footer {
+        font-size: 22px;
+    }
+
+    .my-projects {
+        padding-bottom: 5px;
+    }
+
+    .image-home-alan {
+        width: 450px;
+        height: 420px;
+    }
+
+    .alan-home-box {
+        display: flex;
+        justify-content: center;
+    }
+  
+    .workprocess-card-grid{
+       margin-top: 50px;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1199px) {
+    .about-box-1 {
+        /* height: 550px; */
+    }
+
+    .padding-card-box{
+        padding-right: 40px;
+    }
+
+}
+
+@media (min-width: 1200px) and (max-width: 1535px) {}
+
+@media (min-width: 1536px) {}
+
+/* extra */
+@media (min-width: 120px) and (max-width: 349px) {
+    .image-line-home {
+        width: 180px;
+        height: 18px;
+    }
+  
+}
+@media (min-width: 120px) and (max-width: 450px) {
+    .custom-smallbox-cardnew {
+        position: absolute;
+        left: 28%;
+        bottom: -23px;
+    }
+}
+@media (min-width: 501px) and (max-width: 599px){
+.custom-smallbox-cardnew {
+    position: absolute;
+    left: 33%;
+    bottom: -23px;
+}
+}
+@media (min-width: 350px) and (max-width: 599px) {
+    .image-line-home {
+        width: 210px;
+        height: 18px;
+    }
+}
+
+
+
+@media (min-width: 120px) and (max-width: 384px) {
+    .about-box-1 {
+         height: 1000px; 
+    }
+
+    .workprocess-top {
+        padding-top: 130px; 
+        padding-bottom: 50px;
+    }
+}
+
+@media (min-width: 385px) and (max-width: 475px) {
+    .about-box-1 {
+        height: 900px; 
+   }
+   .workprocess-top {
+    padding-top: 145px; 
+}
+
+}
+
+@media (min-width: 476px) and (max-width: 599px) {
+    .about-box-1 {
+         height: 800px; 
+    }
+    .workprocess-top {
+        padding-top: 160px; 
+    }
+}
+
+@media (min-width: 1100px) and (max-width: 1199px) {
+    .about-h2 {
+        font-size: 22px !important;
+    }
+
+    /* .about-box-1 {
+         height: 450px; 
+    } */
+
+    .card-experience-boxshadow {
+        padding-right: 30px;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1099px) {
+    .about-h2 {
+        font-size: 20px !important;
+    }
+
+    .about-body2 {
+        font-size: 10px !important;
+    }
+
+    .image-about-1 {
+        width: 90%;
+        height: 100%;
+    }
+
+    .about-box-1 {
+        height: 400px;
+    }
+
+    .card-experience-boxshadow {
+        padding-right: 25px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .span-responsive {
+        display: none;
+    }
+}
+
+@media (min-width: 980px) and (max-width: 1060px) {
+    .image-home-alan {
+        width: 480px;
+        height: 440px;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 979px) {
+    .image-home-alan {
+        width: 440px;
+        height: 410px;
+        margin-top: 50px;
+    }
+}
+
+@media (min-width: 1061px) and (max-width: 1999px) {
+    .image-home-alan {
+        width: 520px;
+        height: 460px;
+    }
+}
+
+@media (min-width: 120px) and (max-width: 350px) {
+  .img-pad-2 {
+    position: relative;
+    top: 2px;
+  }
+  .img-pad-1 {
+    position: relative;
+    top: -1px;
+  }
+}
