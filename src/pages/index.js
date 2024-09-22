@@ -173,7 +173,7 @@ export default function Home() {
                   <Grid xs={12} md={5} >
                     <Box sx={{ position: "relative" }} className="alan-about-image">
 
-                      <img src={'/assest/alanimage.png'} alt="Alan"
+                      <Image src={'/assest/imageabout.png'} alt="imgal"
                         className="image-about-1"
                         width={390}
                         height={416} />
