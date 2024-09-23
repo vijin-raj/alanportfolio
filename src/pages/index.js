@@ -534,7 +534,7 @@ export default function Home() {
                   }}
                 >
                   {!isMd ? (
-                    <Carousel indicators={true} sx={{ width: "80%", height: "100%" }}>
+                    <Carousel indicators={true} sx={{ width: "80%", height: "100%" }} navButtonsAlwaysInvisible={true}>
                       {(loading ? Array.from(new Array(3)) : data)?.map((item, index) => {
                         return (
                           <Grid item md={4} key={index} sx={{
