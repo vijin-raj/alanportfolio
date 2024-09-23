@@ -883,3 +883,85 @@
     transform: rotate(-2deg); /* Rotate the background image */
     z-index: -10; /* Send the image behind the text */
 }
+
+.hover-image-bubble {
+
+  transition: width 5s ease-in-out, height 8s ease-in-out, background-size 5s ease-in-out, background-image 2s ease-in-out;
+  
+}
+
+
+.hover-image-bubble:hover{
+  background-color: #EDA323;
+  background-image: url('/assest/fbwhite.png');
+  width: 20px;
+  height: 20px;
+  background-size: 100% 100%
+}
+
+.hover-ball-bubble{
+  transition: width 5s ease-in-out, height 8s ease-in-out, background-size 5s ease-in-out, background-image 2s ease-in-out;
+}
+
+.hover-ball-bubble:hover{
+  background-color: #EDA323;
+  background-image: url('/assest/ballwhite.png');
+  width: 20px;
+  height: 20px;
+  background-size: 100% 100%
+}
+
+.hover-ball-bubble:hover img {
+  display: none;
+  }
+
+.hover-insta-bubble{
+  transition: width 5s ease-in-out, height 8s ease-in-out, background-size 5s ease-in-out, background-image 2s ease-in-out;
+}
+
+.hover-insta-bubble:hover{
+  background-color: #EDA323;
+  background-image: url('/assest/instwhite.png');
+  width: 20px;
+  height: 20px;
+  background-size: 100% 100%
+}
+
+.hover-insta-bubble:hover img {
+  display: none;
+  }
+
+.hover-ind-bubble{
+  transition: width 5s ease-in-out, height 8s ease-in-out, background-size 5s ease-in-out, background-image 2s ease-in-out;
+}
+
+.hover-ind-bubble:hover{
+  background-color: #EDA323;
+  background-image: url('/assest/inwhite.png');
+  width: 20px;
+  height: 20px;
+  background-size: 100% 100%
+}
+
+.hover-ind-bubble:hover img {
+  display: none;
+  }
+
+  
+.hover-be-bubble{
+  transition: width 5s ease-in-out, height 8s ease-in-out, background-size 5s ease-in-out, background-image 2s ease-in-out;
+}
+
+.hover-be-bubble:hover{
+  background-color: #EDA323;
+  background-image: url('/assest/bewhite.png');
+  width: 20px;
+  height: 20px;
+  background-size: 100% 100%
+}
+
+.hover-be-bubble:hover img {
+  display: none;
+  }
+
+
