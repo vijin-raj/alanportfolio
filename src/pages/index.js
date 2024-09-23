@@ -49,7 +49,7 @@ export default function Home() {
 
     setTimeout(() => {
       if (newValue === 0) {
-        setdata(projectdata);
+        setdata(projectdata?.slice(0,6));
       } else if (newValue === 1) {
         const ProjectFilter = projectdata.filter((arr) => arr.name === 'UI/UX Case Study');
         setdata(ProjectFilter);
@@ -622,7 +622,7 @@ export default function Home() {
                     </Carousel>
                   ) : (
 
-                    (loading ? Array.from(new Array(data?.length)) : data)?.map((item, index) => {
+                    (loading ? Array.from(new Array(3)) : data)?.map((item, index) => {
 
                       return (
                         <Grid item md={4} key={index} sx={{

@@ -786,44 +786,6 @@
     transition: transform 0.3s ease
 }
 
-.icon-wrapper {
-    position: relative; /* This is necessary for hover effects */
-    background-color: transparent;
-    transition: background-color 0.3s ease;
-  }
-  
-  .icon-wrapper:hover {
-    background-color: #EDA323; /* Change background to grey on hover */
-    padding: 1px; /* Optional: Add padding to enhance the hover area */
-    border-radius: 4px; /* Optional: Rounded corners */
-  }
-  
-  .icon-wrapper img {
-    transition: opacity 0.3s ease; /* Smooth transition for image change */
-  }
-  
-  .icon-wrapper:hover img {
-    opacity: 0; /* Hide the original icon */
-  }
-  
-  .icon-wrapper::after {
-    content: url('/assest/fbwhite.png'); /* Set the new icon to show on hover */
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    opacity: 0;
-    transition: opacity 0.3s ease; /* Smooth transition */
-  }
-  
-  .icon-wrapper:hover img {
-    transform: scale(0.8); /* Shrinks the icon to 80% of its original size */
-  }
-  .icon-wrapper:hover::after {
-    opacity: 1; /* Show the new icon on hover */
-  }
-  
-
 .custom-tab-overflow{
     height: 42px;
     background-color: #EDA323;
