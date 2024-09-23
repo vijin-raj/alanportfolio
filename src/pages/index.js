@@ -201,21 +201,25 @@ export default function Home() {
                                 width={14}
                                 height={14} />
                             </div>
-                            <div className="hover-ind-bubble">
+                           
                               <a href="https://www.linkedin.com/in/alan-singh-478358315?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">
+                              <div className="hover-ind-bubble">
                                 <Image src={'/assest/in.png'} alt="Alan"
                                   width={13}
                                   height={13} />
+                                   </div>
                               </a>
-                            </div>
+                           
 
-                            <div className="hover-be-bubble">
+                           
                               <a href="https://www.behance.net/alansingh3" target="_blank" rel="noopener noreferrer">
+                              <div className="hover-be-bubble">
                                 <Image src={'/assest/be.png'} alt="Alan"
                                   width={14}
                                   height={10} />
+                                  </div>
                               </a>
-                            </div>
+                            
                           </Stack>
                         </Box>
                       </Box>
