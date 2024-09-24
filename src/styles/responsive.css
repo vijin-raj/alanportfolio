@@ -233,7 +233,6 @@
     .card-experience-boxshadow {
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
         border-radius: 10px;
-        /* padding: 15px; */
         padding-left: 20px;
         padding-top: 20px;
         padding-bottom: 20px;
@@ -283,9 +282,6 @@
 }
 
 @media (min-width: 900px) and (max-width: 1199px) {
-    .about-box-1 {
-        /* height: 550px; */
-    }
 
     .padding-card-box{
         padding-right: 40px;
@@ -362,10 +358,6 @@
     .about-h2 {
         font-size: 22px !important;
     }
-
-    /* .about-box-1 {
-         height: 450px; 
-    } */
 
     .card-experience-boxshadow {
         padding-right: 30px;

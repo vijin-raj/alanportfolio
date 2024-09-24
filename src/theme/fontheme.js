@@ -28,7 +28,9 @@ export const ThemeContextProvider = ({ children }) => {
     const theme = useMemo(() => createTheme({
         palette: {
             mode: mode,
+        
         },
+        
         typography: {
             fontFamily: 'Poppins, Work Sans, Arial, sans-serif',
             h1: {
