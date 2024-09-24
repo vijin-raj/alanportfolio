@@ -16,7 +16,7 @@ export const Navbar = () => {
     const [state, setState] = React.useState({
         right: false,
     });
-    
+   
     const { toggleTheme } = useContext(ThemeContext)
     const toggleDrawer = (anchor, open) => (event) => {
         if (event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {
@@ -26,9 +26,6 @@ export const Navbar = () => {
         setState({ ...state, [anchor]: open });
     };
 
-    const handleSetActive = (to) => {
-      console.log(to)
-    }
 
     const handleClick = () => {
         setOpen(true);
@@ -71,20 +68,6 @@ export const Navbar = () => {
                     <ListItem key={text} disablePadding>
                         <ScrollLink to={text} smooth={true} duration={500} className='style-pointer'>
                             <ListItemButton onClick={toggleDrawer(anchor, false)}>
-                                {/* <ListItemIcon sx={{minWidth: "35px"}}> */}
-                                    {/* {index === 0 ? (
-                                        <AccountCircleOutlined />
-                                    ) : index === 1 ? (
-                                        <PsychologyAltOutlined />
-                                    ) :  index === 2 ? (
-                                        <WbIncandescentOutlined />
-                                    ) : index === 3 ? (
-                                        <ListAltOutlined />
-                                    ) : (
-                                        <CallOutlined />
-                                    )} */}
-                                {/* </ListItemIcon> */}
-
                                 <ListItemText primary={text} style={{fontSize: "16px"}} />
                             </ListItemButton>
                         </ScrollLink>
@@ -113,9 +96,9 @@ export const Navbar = () => {
 
     return (
         <>
-            <Appbarstyle sx={{ background: theme?.palette?.mode === "light" ? "#FFF" : "#000000" }} component="nav">
-                <Container maxWidth="lg" sx={{ background: theme?.palette?.mode === "light" ? "#FFF" : "#000000" }}>
-                    <Toolbarstyle sx={{ background: theme?.palette?.mode === "light" ? "#FFF" : "#000000" }} >
+            <Appbarstyle sx={{ background: theme?.palette?.mode === "light" ? "#FFF" : theme.palette.primary.main}} component="nav">
+                <Container maxWidth="lg" sx={{ background: theme?.palette?.mode === "light" ? "#FFF" : theme.palette.primary.main}}>
+                    <Toolbarstyle sx={{ background: theme?.palette?.mode === "light" ? "#FFF" : theme.palette.primary.main }} >
                         <Box sx={{ display: "flex" }}  gap={0.8} >
                         <Box className="Box-name-menu-1"sx={{ backgroundColor: "#EDA323" }}>
                             <Typography className='typo-nav'>A</Typography>
@@ -137,7 +120,6 @@ export const Navbar = () => {
                                 <ScrollLink to="About"  smooth={true} duration={600} >
                                     <Typography variant='h6' className='h6-nav'>About</Typography>
                                 </ScrollLink>
-
                                 <ScrollLink to="Skills" smooth={true} duration={600} >
                                     <Typography variant='h6' className='h6-nav'>Skill</Typography>
                                 </ScrollLink>
@@ -152,16 +134,10 @@ export const Navbar = () => {
                                     <Typography variant='h6' className='h6-nav'>Contact</Typography>
                                 </ScrollLink>
 
-                                {/* <ThemeSwitch /> */}
-                                {/* <Stack direction="row" alignItems={"center"} gap={3}>
-                                    
-                                    <MaterialUISwitch />
-                                    <div className='custom-download-cv-web' style={{ backgroundColor: theme?.palette?.mode === "light" ? "#3178C6" : "#FFFFFF" }}>
-                                    <a href="/resume.pdf" download className='atagfooter'>
-                                        <Typography variant='body1' className='body1-menu-variant' textAlign={"center"} color={theme?.palette?.mode === "light" ? "#FFFFFF" : "#000000"}>DownloadCV</Typography>
-                                        </a>
-                                    </div>
-                                </Stack> */}
+                                {/* <ThemeSwitch funct={toggleTheme} />  */}
+                    
+                                    {/* <MaterialUISwitch  /> */}
+                                   
                             </Stack>
                         </Box>
                         <Box sx={{ display: { xs: 'flex', sm: 'flex', md: "none", lg: "none" }, }}>
